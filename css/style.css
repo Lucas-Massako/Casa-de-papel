@@ -1,0 +1,88 @@
+
+/* reset css */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.6;
+    letter-spacing: 0.1rem;
+}
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    
+}
+a{
+    color: #222;
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+button{
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+/* thème Css*/
+header{
+    background-color:#A60F1B
+}
+header h1{
+    line-height: 4.5rem; 
+    text-align: center;
+    color: #fff;
+    line-height: 6.5rem;
+    
+}
+
+figure img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+main{
+    max-width: 90.0rem;
+    border: solid 0.1rem #000000; 
+    margin: 1rem auto 5rem;
+    padding: 1rem 1rem 1rem;
+    background-color: #D9BB96;
+}
+
+
+figcaption h2, figcaption ul {
+    padding: 1.5rem ; 
+}
+ figcaption h2{ 
+    font-size: x-large;
+    text-align: center;
+    border: solid 0.1rem #000000; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    background-color:#A60F1B;
+    color:white   
+}
+figure ul{
+    margin-left: 6rem;
+
+}
+footer p {
+    text-align: center;
+
+}
+
+
+
